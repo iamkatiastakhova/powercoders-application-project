@@ -1,0 +1,84 @@
+html{
+    background-color:rgb(253, 249, 243);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    color: rgb(25, 132, 225);
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    padding: 5px;
+}
+
+.photo-img{
+    height: 400px;
+    width: 195px;
+    float: left;
+    padding-right: 20px;
+}
+
+.contact-section {
+    margin: 10px 0;
+}
+
+.clear {
+    clear:both;
+}
+
+.intro-text {
+    line-height: 1.5;
+}
+
+@media (min-width: 1000px) {
+    .intro-text {
+        width: 700px;
+    }
+}
+
+a {
+    color: black;
+    padding-top: 20px;  
+}
+
+a:hover {
+    color: rgb(122, 180, 231);
+}
+
+.box {
+    background-color: rgb(215, 236, 255);
+    border: 1.5px solid #bbb;
+    padding: 14px;
+    text-align: left;
+    font: 1rem sans-serif;
+    font-weight: 300;
+    position: relative;
+    width: 200px;
+    height: 310px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.box:hover {
+    background-color: rgb(194, 226, 255);
+}
+
+.project-title {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.project-image {
+    width: 200px;
+}
+
+footer{
+    text-align: center;
+}
